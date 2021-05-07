@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700,900&display=swap');
+    
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #f3f3f3;
+  font: 14px Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased!important;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.conteudo{
+  background-color: #fff;
+  padding: 15px;
+}
+#tabela-over .table-responsive{
+  overflow-y: auto;
+  max-height: 700px;
+}
+.btn.btn-outline-success{
+  font-size: 12px;
+}
+table.table-bordered.dataTable tbody th, table.table-bordered.dataTable tbody td{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.acessos{
+  margin-bottom: 30px;
+
+}
+.acessos .card{
+  min-height: 250px;
+  margin-bottom: 20px;
+}
+.acessos .card-header{
+  border: 0;
+  background: #fff;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.acessos .card-body{
+  overflow: hidden;
+}
+.acessos .card-title{
+  font-size: 12px;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  cursor: default;
+}
+.acessos .card-body input{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 6px 12px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+.acessos .card button{
+  width: 100%;
+  border: 0;
+  background: #44b696;
+  padding: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  transition: 0.2s ease-in-out;
+}
+.acessos .card button:hover{
+  background: #3d9b80;
+}
+.data {
+  position: relative;
+  margin-right: 10px;
+}
+.data .picker .react-month-picker > div{
+  position: absolute!important;
+  background-color: #fff;
+  box-shadow: 0px 0px 6px #ccc;
+  padding: 10px;
+  z-index: 999;
+  border-radius: 5px;
+  min-width: 315px;
+}
+.data .picker .react-month-picker .month-input{
+  height: 38px;
+  border-radius: 5px;
+  border: 0px;
+  padding: 10px;
+  box-shadow: 0px 0px 6px #ccc;
+}
+
+.download {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: left;
+}
+.mostrames{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.mostrames b{
+  margin-right: 5px;
+}
